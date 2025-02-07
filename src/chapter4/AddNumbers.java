@@ -14,7 +14,7 @@ public class AddNumbers {
 
         Scanner scanner = new Scanner(System.in);
 
-        boolean again = false;
+        boolean again;
         do{
             System.out.println("Enter the first number");
             double num1 = scanner.nextDouble();
